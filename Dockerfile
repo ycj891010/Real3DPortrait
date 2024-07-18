@@ -56,4 +56,4 @@ COPY . /app
 SHELL ["conda", "run", "-n", "real3dportrait", "/bin/bash", "-c"]
 
 # Command to run on container start
-CMD ["python", "your_script.py"]
+#CMD ["python", "your_script.py"]
