@@ -18,7 +18,7 @@ jobs:
     steps:
       # steps 的第一步总是检出最新的代码
       - name: Checkout
-        uses: action/checkout@v4
+        uses: actions/checkout@v4
 
       # 配置 arm64 平台，如果不需要 arm64 平台的镜像，可以不需要这一步，构建 arm 镜像会花额外一倍的时间，能不构建就不构建
       # - name: Set up QEMU
