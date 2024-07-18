@@ -55,4 +55,4 @@ jobs:
           
           # tags 设置成 {用户名}/{项目名}:{tag} 的形式，用户名是 dockerhub 的用户名
           # 其实就是 "docker build -f ./Dockerfile -t user/dify:latest ." 的 "-t user/dify:latest"
-          tags: yangchunjie/Real3DPortrait:latest
+          tags: yangchunjie/real3dportrait:latest
